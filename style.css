@@ -1,0 +1,55 @@
+b/* Global changes */
+body {
+  margin: 0 auto;
+  background: #323232;
+  font-family: "arial", "times new roman", "serif";
+  color: white;
+}
+
+/* Text choices */
+h1 {
+  align-text: center;
+  font-size: 70px;
+  color: #FC10F1;
+  margin: 50px 100px;
+}
+h3 {
+  text-align: center;
+  font-size: 50px;
+  color: #74E626
+}
+h5 {
+  text-align: center;
+  font-size: 25px;
+  color: #9B56B6
+}
+a {
+  color: #16E1F6
+}
+
+/* Images */
+
+/* Layout */
+header{
+  width: 600px;
+  padding: 25px;
+  text-align: center;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+
+}
+.columns {
+  column-count: 2;
+  margin: 2px;
+  width: 800;
+}
+
+
+}
+
+footer {
+
+}
