@@ -44,7 +44,6 @@ html, body {
   }
 
 
-
   #student-number {
     color: #16E1F6;
   }
@@ -54,6 +53,10 @@ padding: 25px 25px;
 background-color: black;
 border-bottom: solid 4px orange;
 margin-top: 15px;
+  }
+  .main-details img {
+    width: 60%;
+    border: lightpink solid 2px;
   }
 
 .main-area{
@@ -73,6 +76,8 @@ margin-top: 15px;
   list-style-type: none;
   text-align: center;
 }
+
+}
 .references {
   list-style-type: none;
 }
@@ -91,6 +96,7 @@ margin-top: 15px;
 
   .main_area img {
     border: yellow solid 2px;
+    width: 80%;
   }
 /* add section content div tag into html */
 
@@ -104,5 +110,4 @@ margin-top: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
   }
