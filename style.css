@@ -40,7 +40,12 @@ html, body {
     color: #9B56B6
   }
   a {
-    color: #16E1F6
+    color: #16E1F6;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  a:hover {
+    color: pink;
   }
 
 
@@ -56,7 +61,10 @@ margin-top: 15px;
   }
   .main-details img {
     width: 60%;
-    border: lightpink solid 2px;
+    border: lightpink solid 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .main-area{
@@ -101,13 +109,16 @@ margin-top: 15px;
 /* add section content div tag into html */
 
   }
+
   #pic {
     border: yellow solid 4px;
     margin: 0 auto;
     text-align: center;
+
   }
-  .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
