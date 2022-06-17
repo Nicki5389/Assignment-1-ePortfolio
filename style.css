@@ -54,17 +54,19 @@ html, body {
   }
 
   .main-details {
-padding: 25px 25px;
+    padding: 25px 25px;
 background-color: black;
-border-bottom: solid 4px orange;
 margin-top: 15px;
   }
   .main-details img {
-    width: 60%;
+    width: 25%;
     border: lightpink solid 3px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float:left;
+
+  }
+
+  .main-details h2 {
+    text-align: center;
   }
 
 .main-area{
@@ -83,14 +85,18 @@ margin-top: 15px;
 .details {
   list-style-type: none;
   text-align: center;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 }
 .references {
   list-style-type: none;
 }
+
   section{
     border-top: 2px solid yellow;
+    margin-top: 70px;
   }
 
   section: first-child {
@@ -104,21 +110,15 @@ margin-top: 15px;
 
   .main_area img {
     border: yellow solid 2px;
-    width: 80%;
+    width: 90%;
+    text-align: center;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   }
 /* add section content div tag into html */
-
-  }
-
-  #pic {
-    border: yellow solid 4px;
-    margin: 0 auto;
-    text-align: center;
-
-  }
-
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
