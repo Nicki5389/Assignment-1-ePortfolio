@@ -1,55 +1,108 @@
-b/* Global changes */
-body {
-  margin: 0 auto;
-  background: #323232;
-  font-family: "arial", "times new roman", "serif";
+html, body {
+  background-color: grey;
+  font-family: arial, serif, times new roman;
+  font-size: 20px;
   color: white;
 }
 
-/* Text choices */
-h1 {
-  align-text: center;
-  font-size: 70px;
-  color: #FC10F1;
-  margin: 50px 100px;
+  p{
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    width: 75%;
+    text-align: left;
+    margin: 30px auto;
+
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #FC10F1;
+    margin-bottom: -30px;
+
+
+  }
+  h2 {
+    text-align: center;
+    color: white;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 50px;
+    color: #74E626
+
+  }
+  h5 {
+    text-align: left;
+    font-size: 25px;
+    color: #9B56B6
+  }
+  a {
+    color: #16E1F6
+  }
+
+
+
+  #student-number {
+    color: #16E1F6;
+  }
+
+  .main-details {
+padding: 25px 25px;
+background-color: black;
+border-bottom: solid 4px orange;
+margin-top: 15px;
+  }
+
+.main-area{
+  padding: 10px 40px;
+  background-color: black;
+
 }
-h3 {
+  #container {
+    width: 90%;
+    max-width: 800px;
+    background-color: black;
+    margin: 50px auto;
+    padding: 30px;
+  }
+
+.details {
+  list-style-type: none;
   text-align: center;
-  font-size: 50px;
-  color: #74E626
 }
-h5 {
-  text-align: center;
-  font-size: 25px;
-  color: #9B56B6
+.references {
+  list-style-type: none;
 }
-a {
-  color: #16E1F6
-}
+  section{
+    border-top: 2px solid yellow;
+  }
 
-/* Images */
+  section: first-child {
+    border-top: 0 solid yellow;
+  }
 
-/* Layout */
-header{
-  width: 600px;
-  padding: 25px;
-  text-align: center;
-}
+  }
+  section: last-child {
+    padding: 20px 0px 25px;
+  }
 
-main {
-  width: 600px;
-  margin: 0 auto;
+  .main_area img {
+    border: yellow solid 2px;
+  }
+/* add section content div tag into html */
 
-}
-.columns {
-  column-count: 2;
-  margin: 2px;
-  width: 800;
-}
-
-
-}
-
-footer {
-
-}
+  }
+  #pic {
+    border: yellow solid 4px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
